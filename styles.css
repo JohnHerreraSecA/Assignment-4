@@ -1,0 +1,188 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lobster&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url('background-image.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://creativeloafing.com/display36359');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #ff2dd1;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ff2dd1;
+    font-size: 1.1rem;
+}
+
+.navbar ul li a:hover {
+    color: #00c3ff;
+}
+
+.main-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #00c3ff;
+    margin-bottom: 20px;
+    font-size: 3rem; /* Increase font size */
+}
+
+p, li {
+    font-size: 1.1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4ec57c;
+    color: #f5f5f5;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+a.btn-primary:hover {
+    background-color: #c70039;
+}
+
+ /* Keyframes for drop-down effect */
+ @keyframes dropDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+/* Styling for section */
+section {
+    text-align: center;
+    max-width: 1175px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: dropDown 3s ease-out; /* Applying animation */
+}
+
+section p {
+    line-height: 1.6;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.448); /* Enhanced shadow on hover */
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ff2dd1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Align and center the schedule list */
+.schedule-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style each schedule item */
+.schedule-list li {
+    margin: 15px 0;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Center the artist images */
+.schedule-list img.artist-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Scale the image on hover */
+.schedule-list img.artist-image:hover {
+    transform: scale(1.1);
+}
+
+
+
